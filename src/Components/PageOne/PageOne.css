@@ -1,11 +1,137 @@
 .Pageone_cont {
-  height: 1075px;
-
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(
     180deg,
     #fff6fb 0%,
     #e7f6fc 33.33%,
     rgba(213, 224, 255, 0) 100%
   );
+}
+
+.pageone_about {
+  padding: 12px;
+  margin: 12px 12px;
+}
+
+.about_title {
+  /* text-align: center; */
+  font-family: Reptile;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 30px;
+  text-align: center;
+  color: #1b1b50;
+  width: 183px;
+  height: 30px;
+  margin-left: 60px;
+  margin-bottom: 47px;
+}
+.about_subtitle {
+  font-family: Quicksand;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  line-height: 22.5px;
+
+  text-align: center;
+  margin-bottom: 37px;
+  color: #1b1b50;
+
+  width: 290px;
+  height: 23px;
+}
+
+.about_desc {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 179%;
+  /* or 25px */
+
+  color: #000000;
+
+  width: 308px;
+  height: 75px;
+}
+
+.horizontal_line {
+  width: 297px;
+  height: 0.1px;
+  border: 1px solid #000000;
+  margin-top: 40px;
+}
+
+.pageone_philosophy {
+  padding: 12px;
+  margin: 12px 12px;
+  text-align: center;
+}
+.philo_title {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #1b1b50;
+  width: 177px;
+  height: 33px;
+  margin-left: 65px;
+}
+.philo_subtitle {
+  font-family: Reptile;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 134.8%;
+  /* or 44px */
+
+  text-align: center;
+
+  color: #1b1b50;
+
+  width: 303px;
+  height: 132px;
+}
+.philo_desc {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 179%;
+  /* or 29px */
+
+  text-align: center;
+
+  color: #1b1b50;
+
+  width: 308px;
+  height: 232px;
+}
+
+p {
+  width: 309px;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 179%;
+  /* or 29px */
+  margin-bottom: 50px;
+
+  text-align: center;
+
+  color: #1b1b50;
+}
+
+img {
+  margin-bottom: 20px;
 }
