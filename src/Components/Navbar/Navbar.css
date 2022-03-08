@@ -1,0 +1,40 @@
+.top_cont {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  background: rgba(255, 255, 255, 0.47);
+  box-shadow: 0px 4px 14px rgba(24, 160, 251, 0.12);
+  backdrop-filter: blur(4px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 0px 0px 14px 14px;
+}
+
+.safearea_cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 16px 30px;
+  background: #ffffff;
+  mix-blend-mode: normal;
+  /* opacity: 0; */
+}
+.sb_img {
+  margin-right: 12px;
+}
+.wifi_img {
+  margin-right: 12px;
+}
+
+.navbar_cont {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 26px;
+  margin-left: 26px;
+}
+
+.sc_img {
+  margin-right: 35px;
+}
+.bell_img {
+  margin-right: 15px;
+}
