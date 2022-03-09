@@ -1,0 +1,78 @@
+.pageseven_cont {
+  background: #f66e6e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.p7_title {
+  width: 335px;
+  height: 86px;
+  left: 33px;
+  top: 5709px;
+
+  font-family: Reptile;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 134.8%;
+  /* or 43px */
+
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 39px;
+  margin-left: 20px;
+}
+
+.p7_img {
+  width: 387px;
+  height: 290px;
+  margin-top: -50px;
+}
+
+.p7_desc {
+  width: 308px;
+  height: 145px;
+  left: 33px;
+  top: 6043px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 206.5%;
+  /* or 29px */
+
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: -25px;
+}
+
+.p7_btn {
+  width: 287px;
+  height: 43px;
+  background: #000000;
+  border-radius: 27px;
+  outline: none;
+  border: 0px;
+  /* text */
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 206.5%;
+  /* identical to box height, or 29px */
+  color: #ffffff;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 52px;
+}
+
+@media screen and (max-width: 394px) {
+  .p7_img {
+    width: 100%;
+    /* margin-left: 50px; */
+  }
+}
