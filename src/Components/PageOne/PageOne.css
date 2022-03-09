@@ -1,5 +1,6 @@
 .Pageone_cont {
   display: flex;
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -13,7 +14,7 @@
 
 .pageone_about {
   padding: 12px;
-  margin: 12px 12px;
+  margin: 110px 12px;
 }
 
 .about_title {
@@ -70,8 +71,13 @@
 
 .pageone_philosophy {
   padding: 12px;
-  margin: 12px 12px;
+  margin: 12px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 50px; */
 }
 .philo_title {
   font-family: Poppins;
@@ -84,7 +90,9 @@
   color: #1b1b50;
   width: 177px;
   height: 33px;
-  margin-left: 65px;
+  /* margin-left: 65px; */
+  margin-top: -120px;
+  text-align: center;
 }
 .philo_subtitle {
   font-family: Reptile;
@@ -127,11 +135,14 @@ p {
   /* or 29px */
   margin-bottom: 50px;
 
-  text-align: center;
-
   color: #1b1b50;
 }
 
 img {
   margin-bottom: 20px;
+}
+
+.p1_p {
+  text-align: center;
+  /* justify-content: flex-start; */
 }

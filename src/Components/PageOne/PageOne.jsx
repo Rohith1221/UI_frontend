@@ -19,7 +19,7 @@ function PageOne(props) {
       <div className="pageone_philosophy">
         <h1 className="philo_title">Our Philosophy</h1>
         <p className="philo_subtitle">
-          Sustainable wellness is a big-picture, inside out approach
+          Sustainable wellness is a big-picture, <br></br>inside out approach
         </p>
         <p className="philo_desc">
           Diana is on a mission to create thoughtful, science-backed solutions
@@ -28,20 +28,20 @@ function PageOne(props) {
           <br></br> That’s why we’ve created an integrated ecosystem of:
         </p>
         <img src={eco}></img>
-        <p>
+        <p className="p1_p">
           Consciously formulated products that deliver feel-good results fast
         </p>
         <img src={connect}></img>
-        <p>
+        <p className="p1_p">
           In-app mood and period tracking options that help you cultivate a
           deeper connection with your mind and body
         </p>
         <img src={phone}></img>
-        <p>
+        <p className="p1_p">
           In-app consultation portals that connect you with compassionate
           wellness experts
         </p>
-        <p>
+        <p className="p1_p">
           Consider us your nerdy ally who spends their time perfecting products
           that work because they want you to feel your best everyday.
         </p>
