@@ -1,0 +1,124 @@
+.pagethree_cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #dce9e9;
+}
+
+.p3_title {
+  width: 335px;
+  height: 66px;
+  margin-left: 30px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 33px;
+  color: #1b1b50;
+  margin-top: 45px;
+}
+.p3_subtitle {
+  width: 329px;
+  height: 86px;
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 21px;
+
+  font-family: Reptile;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 134.8%;
+  /* or 43px */
+
+  color: #000000;
+}
+
+.p3_desc {
+  width: 308px;
+  height: 145px;
+  left: 33px;
+  top: 2815px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 206.5%;
+  /* or 29px */
+
+  color: rgba(0, 0, 0, 0.8);
+  z-index: 2;
+
+  margin-top: 15px;
+  margin-bottom: 60px;
+}
+
+.p3_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* padding: 18px 45px; */
+
+  outline: none;
+  border: 0px;
+  cursor: pointer;
+
+  width: 315px;
+  height: 66px;
+
+  background: linear-gradient(
+    297.28deg,
+    #f66e6e 67.01%,
+    rgba(246, 110, 110, 0) 123.71%
+  );
+  filter: drop-shadow(0px 2px 6px rgba(255, 22, 64, 0.33));
+  border-radius: 70px;
+
+  font-family: poppins;
+  color: #ffff;
+  font-size: 19.86px;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.p3_tagline {
+  width: 335px;
+  height: 33px;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 33px;
+  /* identical to box height */
+
+  text-align: center;
+  z-index: 2;
+  color: rgba(0, 0, 0, 0.8);
+
+  margin-top: 25px;
+}
+
+.p3_img {
+  margin-top: -240px;
+  margin-bottom: 0px;
+  /* width: 100%; */
+  object-fit: cover;
+  z-index: 1;
+}
+
+@media screen and (max-width: 460px) {
+  .p3_img {
+    width: 100%;
+  }
+}
