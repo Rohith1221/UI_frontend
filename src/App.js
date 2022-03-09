@@ -1,5 +1,6 @@
 import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
+import PageEight from "./Components/PageEight/PageEight";
 import PageFive from "./Components/PageFive/PageFive";
 import PageFour from "./Components/PageFour/PageFour";
 import PageOne from "./Components/PageOne/PageOne";
@@ -18,6 +19,7 @@ function App() {
       <PageFive />
       <PageSix />
       <PageSeven />
+      <PageEight />
     </div>
   );
 }
