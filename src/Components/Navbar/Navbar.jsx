@@ -21,7 +21,7 @@ function Navbar(props) {
       </div>
       <div className="navbar_cont">
         <div className="navbar_left">
-          <img src={menu}></img>
+          <img src={menu} className="menu_img"></img>
         </div>
         <div className="navbar_right">
           <img src={sc} className="sc_img"></img>

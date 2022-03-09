@@ -23,6 +23,10 @@
   mix-blend-mode: normal;
   /* opacity: 0; */
 }
+
+.sa_left {
+  font-family: SF Pro Display;
+}
 .sb_img {
   margin-right: 12px;
 }
@@ -42,4 +46,10 @@
 }
 .bell_img {
   margin-right: 15px;
+}
+
+.menu_img,
+.sc_img,
+.bell_img {
+  cursor: pointer;
 }

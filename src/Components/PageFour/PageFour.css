@@ -103,8 +103,14 @@
 
 @media screen and (max-width: 360px) {
   .img {
-    width: 142px;
-    height: 142px;
+    width: 140px;
+    height: 140px;
+  }
+}
+@media screen and (max-width: 354px) {
+  .img {
+    width: 139px;
+    height: 139px;
   }
 }
 @media screen and (max-width: 320px) {
