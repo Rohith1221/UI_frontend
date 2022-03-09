@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 import PageEight from "./Components/PageEight/PageEight";
 import PageFive from "./Components/PageFive/PageFive";
@@ -20,6 +21,7 @@ function App() {
       <PageSix />
       <PageSeven />
       <PageEight />
+      <Footer />
     </div>
   );
 }
