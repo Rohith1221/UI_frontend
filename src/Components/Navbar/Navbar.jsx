@@ -9,16 +9,6 @@ import "./Navbar.css";
 function Navbar(props) {
   return (
     <div className="top_cont">
-      <div className="safearea_cont">
-        <div className="sa_left">
-          <span>9:41</span>
-        </div>
-        <div className="sa_right">
-          <img src={statusbar} className="sb_img"></img>
-          <img src={wifi} className="wifi_img"></img>
-          <img src={battery}></img>
-        </div>
-      </div>
       <div className="navbar_cont">
         <div className="navbar_left">
           <img src={menu} className="menu_img"></img>
@@ -33,3 +23,14 @@ function Navbar(props) {
 }
 
 export default Navbar;
+
+//  <div className="safearea_cont">       REMOVED SAFEAREA CURRENTLY (COMES AFTER top_content and above navbar_content)
+//    <div className="sa_left">
+//      <span>9:41</span>
+//    </div>
+//    <div className="sa_right">
+//      <img src={statusbar} className="sb_img"></img>
+//      <img src={wifi} className="wifi_img"></img>
+//      <img src={battery}></img>
+//    </div>
+//  </div>;
