@@ -43,6 +43,8 @@ ul {
   /* identical to box height */
 
   color: #1b1b50;
+
+  margin-left: -20px;
 }
 
 .p2_subtitle {
@@ -51,9 +53,6 @@ ul {
   /* height: 86px; */
   display: flex;
   justify-content: flex-start;
-  margin-left: 39px;
-
-  /* font-family: Reptile; */
   font-family: "Noto Serif Display", serif;
   font-style: normal;
   font-weight: 500;
@@ -64,6 +63,7 @@ ul {
   color: #1b1b50;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .last_line {
