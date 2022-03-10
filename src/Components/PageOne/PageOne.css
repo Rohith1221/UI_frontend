@@ -15,20 +15,26 @@
 .pageone_about {
   padding: 12px;
   margin: 110px 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .about_title {
   /* text-align: center; */
-  font-family: Reptile;
+  /* font-family: Reptile;*/
+  font-family: "Noto Serif Display", serif;
   font-style: normal;
   font-weight: 500;
   font-size: 33px;
   line-height: 30px;
   text-align: center;
   color: #1b1b50;
-  width: 183px;
+  /* width: 183px; */
   height: 30px;
-  margin-left: 50px;
+  margin-left: 0px;
   margin-bottom: 47px;
   margin-top: -20px;
 }
@@ -45,8 +51,10 @@
   margin-bottom: 37px;
   color: #1b1b50;
 
-  width: 290px;
+  /* width: 290px; */
   height: 23px;
+  margin-left: 5px;
+  margin-top: -5px;
 }
 
 .about_desc {
@@ -59,15 +67,17 @@
 
   color: #000000;
 
-  width: 308px;
+  /* width: 308px; */
   height: 75px;
+  margin-left: 20px;
+  margin-top: 2px;
 }
 
 .horizontal_line {
-  width: 297px;
-  height: 0.1px;
-  border: 1px solid #000000;
-  margin-top: 40px;
+  width: 280px;
+  height: 0px;
+  border: 0.1px solid #000000;
+  margin-top: 0px;
   background-color: #000000;
 }
 
@@ -97,10 +107,12 @@
   text-align: center;
 }
 .philo_subtitle {
-  font-family: Reptile;
+  /* font-family: Reptile; */
+  font-family: "Noto Serif Display", serif;
+
   font-style: normal;
   font-weight: 500;
-  font-size: 33px;
+  font-size: 30px;
   line-height: 134.8%;
   /* or 44px */
 
@@ -111,6 +123,7 @@
   width: 303px;
   height: 132px;
   margin-top: 15px;
+  margin-bottom: 10px;
 }
 .philo_desc {
   font-family: DM Sans;

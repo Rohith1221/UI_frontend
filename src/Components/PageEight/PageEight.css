@@ -12,10 +12,12 @@
   left: 47px;
   top: 6409px;
 
-  font-family: Reptile;
+  /* font-family: Reptile; */
+  font-family: "Noto Serif Display", serif;
+
   font-style: normal;
   font-weight: 500;
-  font-size: 33px;
+  font-size: 30px;
   line-height: 134.8%;
   /* or 44px */
 

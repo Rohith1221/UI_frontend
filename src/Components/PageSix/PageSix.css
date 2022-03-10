@@ -15,13 +15,13 @@
 .p6_title {
   width: 335px;
   height: 86px;
-  left: 27px;
-  top: 5033px;
 
-  font-family: Reptile;
+  /* font-family: Reptile; */
+  font-family: "Noto Serif Display", serif;
+
   font-style: normal;
   font-weight: 500;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 134.8%;
   /* or 43px */
   color: #000000;

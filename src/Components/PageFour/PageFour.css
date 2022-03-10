@@ -6,13 +6,15 @@
 }
 
 .p4_title {
-  width: 245px;
+  /* width: 245px; */
   height: 43px;
   margin-top: 30px;
 
   margin-left: -70px;
 
-  font-family: Reptile;
+  /* font-family: Reptile; */
+  font-family: "Noto Serif Display", serif;
+
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
@@ -20,6 +22,8 @@
   /* or 43px */
 
   color: #000000;
+
+  margin-left: -53px;
 }
 
 .p4_subtitle {

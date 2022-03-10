@@ -19,7 +19,7 @@ function PageOne(props) {
       <div className="pageone_philosophy">
         <h1 className="philo_title">Our Philosophy</h1>
         <p className="philo_subtitle">
-          Sustainable wellness is a big-picture, <br></br>inside out approach
+          Sustainable wellness is a big-picture, inside out approach
         </p>
         <p className="philo_desc">
           Diana is on a mission to create thoughtful, science-backed solutions

@@ -15,7 +15,9 @@
   justify-content: flex-start;
   align-items: center;
 
-  font-family: Reptile;
+  /* font-family: Reptile; */
+  font-family: "Noto Serif Display", serif;
+
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
