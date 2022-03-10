@@ -1,18 +1,27 @@
-# Getting Started with Create React App
+# How to view the website 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<!-- ## Available Scripts -->
 
-In the project directory, you can run:
+To view this project in your local system , clone this repository in a directory.
+After navigating into the main project directory.
+Run the following commands.
+
+### `npm install`
+To install all the required dependencies to run the application.
 
 ### `npm start`
-
-Runs the app in the development mode.\
+To initialize the application.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Some of the screen shots
+![Screenshot (413)](https://user-images.githubusercontent.com/62758125/157510342-1f20b112-2c5f-4665-abcc-99e90f3fed0b.png)
+![Screenshot (414)](https://user-images.githubusercontent.com/62758125/157510807-a6c2b217-19b9-47e2-9600-e700abe82d2b.png)
+![Screenshot (415)](https://user-images.githubusercontent.com/62758125/157510915-fec9904e-dba4-4c06-8e16-40df22701e11.png)
+![Screenshot (417)](https://user-images.githubusercontent.com/62758125/157511018-f3ed7ef4-2346-46e5-a610-59c785d85db1.png)
+
+
 
 ### `npm test`
 
