@@ -88,6 +88,12 @@
 
 .p5_img {
   display: flex;
-  margin-top: 49px;
+  margin-top: 30px;
   margin-bottom: 0px;
+}
+.p5_img_cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffdad4;
 }
